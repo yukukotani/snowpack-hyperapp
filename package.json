@@ -1,0 +1,28 @@
+{
+  "name": "snowpack-hyperapp-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:js && npm run build:esm && npm run copy",
+    "build:js": "babel src/ -d dist",
+    "build:js:watch": "babel src/ -d dist --watch",
+    "build:esm": "snowpack --include \"dist/**/*.js\" --dest dist/web_modules",
+    "copy": "cpx index.html ./dist",
+    "dev": "npm run build && npm run build:js:watch & serve -s dist",
+    "format": "prettier --write \"{,**/}*.{js,jsx,ts,tsx,json,vue,yaml,md,html}\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hyperapp": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-transform-react-jsx": "^7.7.7",
+    "cpx": "^1.5.0",
+    "prettier": "^1.19.1",
+    "snowpack": "^1.0.2"
+  }
+}
