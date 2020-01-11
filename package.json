@@ -15,7 +15,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hyperapp": "^2.0.3"
+    "hyperapp": "^1.2.10",
+    "picostyle": "^2.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.7",

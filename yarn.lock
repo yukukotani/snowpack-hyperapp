@@ -1488,10 +1488,10 @@ has-values@^1.0.0:
     is-number "^3.0.0"
     kind-of "^4.0.0"
 
-hyperapp@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/hyperapp/-/hyperapp-2.0.3.tgz#15000a828fcd680ab04256a312e63b2caea99a4d"
-  integrity sha512-SiTeX3kYK8ggjNqAAnyi2QRUHRCZ87L35pn66LevbI+TLp1wSsruKd1BD6c82s5ve9L503/HwQtpdTA0f5Wk9w==
+hyperapp@^1.2.10:
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/hyperapp/-/hyperapp-1.2.10.tgz#2198d71047ac5c7e7a801036f3e80d64dbe64ad1"
+  integrity sha512-6htzCy/Y9QiSXyUGgZhfTqW0NtK7uMlaGS2t/kARJifu5vR4FjMcfC/5lqVs2mLSZ6GdKLEPsMZOVBpHz5X/qg==
 
 inflight@^1.0.4:
   version "1.0.6"
@@ -2091,6 +2091,11 @@ path-parse@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+
+picostyle@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/picostyle/-/picostyle-2.2.0.tgz#c013aff511d0658867b9a445e88baf56b035a8ae"
+  integrity sha512-hkP+80H9dRxXjG3a6/tz3xa7q9imnZM7TAXE+nlbmHo0MbALGOdwwUW1KrSEIN9Dk4nUyxT+vDk/fqBCQh2BCQ==
 
 pify@^4.0.1:
   version "4.0.1"
