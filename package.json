@@ -12,8 +12,8 @@
     "dev": "npm run build && npm run build:js:watch & serve -s dist",
     "format": "prettier --write \"{,**/}*.{js,jsx,ts,tsx,json,vue,yaml,md,html}\""
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Yuku Kotani",
+  "license": "MIT",
   "dependencies": {
     "hyperapp": "^1.2.10",
     "picostyle": "^2.2.0"
