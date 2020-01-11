@@ -2,14 +2,14 @@
 
 # snowpack-hyperapp
 
-Simple ToDo list built with [snowpack](https://www.snowpack.dev/) and [hyperapp](https://hyperapp.dev/).
+Simple ToDo list built with [Snowpack](https://www.snowpack.dev/) and [Hyperapp](https://hyperapp.dev/).
 
 You can see live demo [here](https://snowpack-hyperapp.netlify.com).
 
 ## Build
 
 ```sh
-npm build
+npm run build
 ```
 
-Then access to dist/index.html.
+Then just access to dist/index.html.
