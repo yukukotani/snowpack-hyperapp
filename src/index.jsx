@@ -9,6 +9,11 @@ const Container = styled("div")({
   padding: "0 30px"
 });
 
+const Footer = styled("div")({
+  color: "gray",
+  marginTop: "32px"
+});
+
 const state = {
   todos: ["First ToDo"],
   currentInput: ""
@@ -29,6 +34,11 @@ const view = (state, actions) => {
         addTodo={actions.addTodo}
         updateInput={actions.updateInput}
       />
+      <Footer>
+        <a href="https://github.com/Monchi/snowpack-hyperapp">
+          https://github.com/Monchi/snowpack-hyperapp
+        </a>
+      </Footer>
     </Container>
   );
 };
